@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corinne & Griffin’s Wedding Day Guide</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, .font-serif { font-family: 'Cormorant Garamond', serif; }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased">
+
+  <!-- HERO SECTION -->
+  <header class="py-12 text-center px-4 bg-stone-100 border-b border-stone-200">
+    <span class="text-xs uppercase tracking-widest text-stone-500 font-semibold">Wedding Day Schedule & Run of Show</span>
+    <h1 class="text-4xl sm:text-5xl font-medium tracking-wide text-stone-900 mt-2">Corinne & Griffin</h1>
+    <p class="text-stone-600 mt-2 font-serif text-xl italic">Friday, October 30 • The Springs Restaurant • London, ON</p>
+    <p class="text-xs text-stone-500 mt-1">Officiant: Tara</p>
+    
+    <!-- Quick Nav -->
+    <nav class="mt-6 flex flex-wrap justify-center gap-2 max-w-2xl mx-auto text-xs font-medium">
+      <a href="#morning-prep" class="px-3 py-1.5 bg-white border border-stone-300 rounded-full hover:bg-stone-50 shadow-sm">Morning Prep & Departures</a>
+      <a href="#roles" class="px-3 py-1.5 bg-white border border-stone-300 rounded-full hover:bg-stone-50 shadow-sm">Crew Roles</a>
+      <a href="#seating-chart" class="px-3 py-1.5 bg-white border border-stone-300 rounded-full hover:bg-stone-50 shadow-sm">Ceremony Seating Chart</a>
+      <a href="#wedding-timeline" class="px-3 py-1.5 bg-white border border-stone-300 rounded-full hover:bg-stone-50 shadow-sm">Wedding Timeline & Menu</a>
+      <a href="#ceremony-flow" class="px-3 py-1.5 bg-white border border-stone-300 rounded-full hover:bg-stone-50 shadow-sm">Ceremony Flow</a>
+      <a href="#speeches" class="px-3 py-1.5 bg-white border border-stone-300 rounded-full hover:bg-stone-50 shadow-sm">Speeches</a>
+      <a href="#partners" class="px-3 py-1.5 bg-white border border-stone-300 rounded-full hover:bg-stone-50 shadow-sm">Note for +1s</a>
+    </nav>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-10 space-y-12">
+
+    <!-- 1. MORNING PREP SCHEDULE (WITH ARRIVALS, ROLES & DEPARTURE CHECKLIST) -->
+    <section id="morning-prep" class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-stone-200">
+      <h2 class="text-2xl font-serif text-stone-900 border-b pb-3 mb-6">Morning Prep Schedule</h2>
+      
+      <div class="relative border-l-2 border-stone-200 ml-3 space-y-7 text-sm">
+
+        <!-- 8:30 AM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-stone-400"></div>
+          <span class="font-bold text-stone-900 block text-base">8:30 AM</span>
+          <p class="font-medium text-amber-900 mt-0.5">Jeff arrives at the house</p>
+          <p class="text-stone-600 text-xs mt-1">• Jeff holds down the fort and watches Cassian during morning hair appointments.</p>
+        </div>
+
+        <!-- 8:40 AM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-stone-400"></div>
+          <span class="font-bold text-stone-900 block text-base">8:40 AM</span>
+          <p class="font-medium text-stone-900 mt-0.5">Corinne & Jacqueline depart for salon</p>
+        </div>
+
+        <!-- 8:45 AM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-stone-400"></div>
+          <span class="font-bold text-stone-900 block text-base">8:45 AM</span>
+          <p class="font-medium text-stone-900 mt-0.5">Emily, Alice, and Alison arrive at the salon</p>
+          <p class="text-stone-600 text-xs mt-1">• Hair appointments start promptly at 9:00 AM.</p>
+        </div>
+
+        <!-- 9:00 AM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-stone-400"></div>
+          <span class="font-bold text-stone-900 block text-base">9:00 AM</span>
+          <p class="font-medium text-stone-900 mt-0.5">Griffin departs for haircut & styling appointment</p>
+          <p class="text-stone-600 text-xs mt-1">• Appointment runs ~45 mins.</p>
+        </div>
+
+        <!-- 10:00 AM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-stone-400"></div>
+          <span class="font-bold text-stone-900 block text-base">10:00 AM</span>
+          <p class="font-medium text-amber-900 mt-0.5">Griffin returns home; Glen & Melissa arrive at the house</p>
+          <p class="text-stone-600 text-xs mt-1">• Griffin, Glen, and Melissa assist with Cassian and morning downtime.</p>
+        </div>
+
+        <!-- 11:45 AM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-stone-400"></div>
+          <span class="font-bold text-stone-900 block text-base">11:45 AM</span>
+          <p class="font-medium text-stone-900 mt-0.5">Lunch set out on main floor</p>
+          <p class="text-stone-600 text-xs mt-1">• Food, snacks, and drinks available for everyone arriving back.</p>
+        </div>
+
+        <!-- 12:00 PM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-stone-400"></div>
+          <span class="font-bold text-stone-900 block text-base">12:00 PM</span>
+          <p class="font-medium text-amber-900 mt-0.5">Bridal party returns home; Groomsmen arrive at the house; Daniel arrives at the house</p>
+          <div class="mt-2 space-y-1 text-xs text-stone-600 bg-stone-50 p-2.5 rounded border border-stone-200">
+            <p><strong>• Bridal Party:</strong> Head upstairs for self-makeup and prep.</p>
+            <p><strong>• Groomsmen:</strong> Head to the basement to hang out and suit up.</p>
+            <p><strong>• Daniel:</strong> Preps on main floor/upstairs; acts as messenger between levels.</p>
+          </div>
+        </div>
+
+        <!-- 12:30 PM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-stone-400"></div>
+          <span class="font-bold text-stone-900 block text-base">12:30 PM</span>
+          <p class="font-medium text-stone-900 mt-0.5">Makeup Artist arrives at the house for Alison</p>
+          <p class="text-stone-600 text-xs mt-1">• Session takes place upstairs.</p>
+        </div>
+
+        <!-- 2:00 PM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-amber-600 ring-4 ring-amber-100"></div>
+          <span class="font-bold text-stone-900 block text-base">2:00 PM</span>
+          <p class="font-medium text-stone-900 mt-0.5">Everyone fully ready • First Look with Griffin</p>
+          <p class="text-stone-600 text-xs mt-1">• Everyone in complete attire (hair, makeup, boutonnières, corsages).</p>
+          <p class="text-stone-600 text-xs">• Private backyard First Look with Corinne & Griffin, followed by photos and prosecco!</p>
+        </div>
+
+        <!-- 2:30 PM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-red-500 ring-4 ring-red-100"></div>
+          <span class="font-bold text-stone-900 block text-base">2:30 PM Sharp</span>
+          <p class="font-medium text-red-700 mt-0.5">STRICT DEPARTURE TIME — Load Cars & Roll Out</p>
+          
+          <!-- Embedded Departure Checklist -->
+          <div class="mt-3 p-3 bg-red-50/70 border border-red-200 rounded-lg text-xs text-stone-700">
+            <span class="font-semibold text-red-900 block mb-1">Mandatory Departure Checklist:</span>
+            <ul class="space-y-1 list-disc list-inside">
+              <li>Marriage license & legal paperwork envelope</li>
+              <li>Both wedding bands (handed to Emily)</li>
+              <li>Card box keys (handed to Reid)</li>
+              <li>Cassian diaper bag, backup clothes & formula bottles</li>
+              <li>Touch-up makeup and emergency kit</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 3:15 PM -->
+        <div class="relative pl-6">
+          <div class="absolute -left-1.5 top-1 w-3 h-3 rounded-full bg-stone-400"></div>
+          <span class="font-bold text-stone-900 block text-base">3:15 PM</span>
+          <p class="font-medium text-stone-900 mt-0.5">Arrive at The Springs Restaurant</p>
+          <div class="mt-1 space-y-1 text-xs text-stone-600">
+            <p>• Unpack bags and gear.</p>
+            <p>• Corinne and bridesmaids tuck into the back bridal suite.</p>
+            <p>• Groomsmen and Griffin hang out downstairs.</p>
+            <p>• <strong>Groomsmen Role:</strong> Greet arriving guests starting at 3:30 PM and help direct them to their seats.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. ROLES & EXPECTATIONS -->
+    <section id="roles" class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-stone-200">
+      <h2 class="text-2xl font-serif text-stone-900 border-b pb-3 mb-6">Roles & Expectations</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+        
+        <!-- Emily -->
+        <div class="p-4 rounded-xl bg-stone-50 border border-stone-100">
+          <h3 class="font-semibold text-stone-900 flex justify-between items-center">
+            <span>Emily</span>
+            <span class="text-xs bg-stone-200 px-2 py-0.5 rounded text-stone-700">Maid of Honour</span>
+          </h3>
+          <ul class="mt-2 space-y-1.5 text-stone-600 text-xs list-disc list-inside">
+            <li>Takes Corinne's bouquet right after the processional</li>
+            <li>Holds rings and passes them to Tara during the exchange</li>
+            <li>Carries bouquet to signing table and signs as legal witness</li>
+            <li>Bustles dress before dinner & delivers short speech</li>
+          </ul>
+        </div>
+
+        <!-- Matthew -->
+        <div class="p-4 rounded-xl bg-stone-50 border border-stone-100">
+          <h3 class="font-semibold text-stone-900 flex justify-between items-center">
+            <span>Matthew</span>
+            <span class="text-xs bg-stone-200 px-2 py-0.5 rounded text-stone-700">Best Man</span>
+          </h3>
+          <ul class="mt-2 space-y-1.5 text-stone-600 text-xs list-disc list-inside">
+            <li>Signs marriage registry as legal witness alongside Emily</li>
+            <li>Helps rally groomsmen for photos</li>
+            <li>Delivers short speech during dinner</li>
+          </ul>
+        </div>
+
+        <!-- Alice -->
+        <div class="p-4 rounded-xl bg-stone-50 border border-stone-100">
+          <h3 class="font-semibold text-stone-900 flex justify-between items-center">
+            <span>Alice</span>
+            <span class="text-xs bg-stone-200 px-2 py-0.5 rounded text-stone-700">Personal Care & Content</span>
+          </h3>
+          <ul class="mt-2 space-y-1.5 text-stone-600 text-xs list-disc list-inside">
+            <li>Holds Corinne’s phone (silenced) and manages communication</li>
+            <li>Takes candid photos/videos throughout morning and evening</li>
+            <li>Performs final walkthrough sweep of the house before 2:30 PM departure</li>
+            <li>Fluffs train and checks veil before walk down the aisle</li>
+          </ul>
+        </div>
+
+        <!-- Daniel -->
+        <div class="p-4 rounded-xl bg-stone-50 border border-stone-100">
+          <h3 class="font-semibold text-stone-900 flex justify-between items-center">
+            <span>Daniel</span>
+            <span class="text-xs bg-stone-200 px-2 py-0.5 rounded text-stone-700">Liaison & Messenger</span>
+          </h3>
+          <ul class="mt-2 space-y-1.5 text-stone-600 text-xs list-disc list-inside">
+            <li>Arrives at noon to prep on main floor/upstairs</li>
+            <li>Runs messages and supplies between upstairs and basement</li>
+            <li>Assists Matthew with gathering the party for post-ceremony photos</li>
+          </ul>
+        </div>
+
+        <!-- Alison -->
+        <div class="p-4 rounded-xl bg-stone-50 border border-stone-100">
+          <h3 class="font-semibold text-stone-900 flex justify-between items-center">
+            <span>Alison</span>
+            <span class="text-xs bg-stone-200 px-2 py-0.5 rounded text-stone-700">Processional & Wagon Lead</span>
+          </h3>
+          <ul class="mt-2 space-y-1.5 text-stone-600 text-xs list-disc list-inside">
+            <li>12:30 PM makeup session upstairs</li>
+            <li>Checks on Ava & Madilyn and ensures Cassian is set in wagon at 3:45 PM</li>
+            <li>Assists with lining up wagon crew before processional</li>
+          </ul>
+        </div>
+
+        <!-- Reid -->
+        <div class="p-4 rounded-xl bg-stone-50 border border-stone-100">
+          <h3 class="font-semibold text-stone-900 flex justify-between items-center">
+            <span>Reid</span>
+            <span class="text-xs bg-amber-100 text-amber-900 px-2 py-0.5 rounded">Security Lead</span>
+          </h3>
+          <ul class="mt-2 space-y-1.5 text-stone-600 text-xs list-disc list-inside">
+            <li>Holds keys to the locked card box</li>
+            <li>Helps usher guests to seats at 3:30 PM</li>
+            <li><strong>At 5:30 PM:</strong> Moves card box and guestbook to secure storage space</li>
+          </ul>
+        </div>
+
+        <!-- Groomsmen Team -->
+        <div class="p-4 rounded-xl bg-stone-50 border border-stone-100 md:col-span-2">
+          <h3 class="font-semibold text-stone-900">Groomsmen Team (3:30 PM – 3:55 PM)</h3>
+          <p class="text-stone-600 text-xs mt-1">
+            Stationed downstairs and near the ceremony entrance to warmly welcome guests and assist them in finding their seats according to the seating chart.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. CEREMONY SEATING CHART -->
+    <section id="seating-chart" class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-stone-200">
+      <h2 class="text-2xl font-serif text-stone-900 border-b pb-3 mb-4">Ceremony Seating Chart</h2>
+      <p class="text-stone-600 text-xs sm:text-sm mb-6">
+        Reference map for groomsmen ushering guests prior to the 4:00 PM ceremony start.
+      </p>
+
+      <!-- Image / Graphic Placeholder -->
+      <div class="border-2 border-dashed border-stone-300 rounded-xl p-8 text-center bg-stone-50/50">
+        <svg class="w-10 h-10 mx-auto text-stone-400 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+        </svg>
+        <span class="block text-sm font-medium text-stone-700">Seating Plan Diagram Placeholder</span>
+        <span class="block text-xs text-stone-500 mt-1">Drop your exported seating image file here (e.g. <code>seating-chart.jpg</code>)</span>
+      </div>
+
+      <!-- Quick Text Guide -->
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+        <div class="p-3.5 bg-stone-50 rounded-lg border border-stone-200">
+          <strong class="block text-stone-900 mb-1">Bride’s Side (Left):</strong>
+          <p class="text-stone-600">Front rows reserved for Jacqueline, Jeff, and immediate extended family.</p>
+        </div>
+        <div class="p-3.5 bg-stone-50 rounded-lg border border-stone-200">
+          <strong class="block text-stone-900 mb-1">Groom’s Side (Right):</strong>
+          <p class="text-stone-600">Front rows reserved for Melissa, Glen, and immediate extended family.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. WEDDING TIMELINE & MENU -->
+    <section id="wedding-timeline" class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-stone-200">
+      <h2 class="text-2xl font-serif text-stone-900 border-b pb-3 mb-6">Wedding Timeline</h2>
+      
+      <div class="space-y-4 text-sm">
+        <div class="flex items-start gap-4 pb-3 border-b border-stone-100">
+          <span class="font-bold text-stone-900 w-20 shrink-0">3:30 PM</span>
+          <span class="text-stone-700">Guests Arrive & Seating Begins</span>
+        </div>
+        <div class="flex items-start gap-4 pb-3 border-b border-stone-100">
+          <span class="font-bold text-stone-900 w-20 shrink-0">4:00 PM</span>
+          <span class="text-stone-700">Ceremony Commences (Officiated by Tara)</span>
+        </div>
+        <div class="flex items-start gap-4 pb-3 border-b border-stone-100">
+          <span class="font-bold text-stone-900 w-20 shrink-0">4:30 PM</span>
+          <div>
+            <span class="text-stone-700 font-medium">Cocktail Hour & Outdoor Photos</span>
+            <p class="text-xs text-stone-500 mt-0.5">Immediately following the recessional, the couple, wedding party, and immediate family will head outside for photos during cocktail hour (specific outdoor location TBD). Once family photos wrap, Cassian will be changed into comfortable clothes for the rest of the evening.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4 pb-3 border-b border-stone-100">
+          <span class="font-bold text-stone-900 w-20 shrink-0">5:30 PM</span>
+          <div>
+            <span class="text-stone-700 font-medium">Dinner Service</span>
+            <p class="text-xs text-stone-500 mt-0.5">Near the end of the main course, the MC will introduce speakers for speeches. Followed by dessert, cake cutting, and first dances.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4 pb-3 border-b border-stone-100">
+          <span class="font-bold text-stone-900 w-20 shrink-0">7:00 PM</span>
+          <span class="text-stone-700">Dance Floor & Bar Open</span>
+        </div>
+        <div class="flex items-start gap-4 pb-3 border-b border-stone-100">
+          <span class="font-bold text-stone-900 w-20 shrink-0">~10:00 PM</span>
+          <span class="text-stone-700">Late Night Food Station</span>
+        </div>
+        <div class="flex items-start gap-4">
+          <span class="font-bold text-stone-900 w-20 shrink-0">12:00 AM</span>
+          <span class="text-stone-700">Send Off & Wrap Up</span>
+        </div>
+      </div>
+
+      <!-- DINNER MENU PLACEHOLDER -->
+      <div class="mt-8 pt-6 border-t border-stone-200">
+        <h3 class="text-xl font-serif text-stone-900 mb-3">Dinner Menu</h3>
+        <div class="border-2 border-dashed border-stone-300 rounded-xl p-6 text-center bg-stone-50/50">
+          <span class="block text-sm font-medium text-stone-700">Menu Options Placeholder</span>
+          <span class="block text-xs text-stone-500 mt-1">Insert plated courses, dietary alternatives, and late-night snack details here.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CEREMONY FLOW -->
+    <section id="ceremony-flow" class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-stone-200">
+      <h2 class="text-2xl font-serif text-stone-900 border-b pb-3 mb-4">Ceremony Flow & Mechanics</h2>
+      <p class="text-xs sm:text-sm text-stone-600 mb-6">
+        Our officiant, <strong>Tara</strong>, will be stationed at the front and will cue the processional music and entrances.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+        
+        <!-- Processional -->
+        <div class="p-4 rounded-xl bg-stone-50 border border-stone-200">
+          <h3 class="font-semibold text-stone-900 border-b pb-2 mb-3">Processional Order (Entrance)</h3>
+          <ol class="space-y-1.5 text-stone-700 list-decimal list-inside text-xs sm:text-sm">
+            <li>Griffin escorts Melissa to her seat</li>
+            <li>Griffin returns to escort Jacqueline to her seat</li>
+            <li>Alice & Reid</li>
+            <li>Alison & Keenan</li>
+            <li>Daniel & Calum</li>
+            <li>Emily & Matthew</li>
+            <li>Ava & Madilyn (pulling Cassian in the wagon)</li>
+            <li><strong>Corinne escorted by Jeff</strong></li>
+          </ol>
+          <div class="mt-3 p-2 bg-amber-50 border border-amber-200 rounded text-xs text-amber-900">
+            <strong>Note:</strong> Once at the altar, Jacqueline gently lifts Cassian out of the wagon to sit with her during the vows.
+          </div>
+        </div>
+
+        <!-- Recessional -->
+        <div class="p-4 rounded-xl bg-stone-50 border border-stone-200">
+          <h3 class="font-semibold text-stone-900 border-b pb-2 mb-3">Recessional Order (Exit)</h3>
+          <p class="text-xs text-stone-500 mb-2"><strong>The Spoken Cue from Tara:</strong><br><em>"Family and friends please stand, it is my great honour and privilege to present to you for the very first time... Mr. Thomas and Mrs. Thomas!"</em></p>
+          <ol class="space-y-1.5 text-stone-700 list-decimal list-inside text-xs sm:text-sm">
+            <li><strong>Corinne & Griffin</strong></li>
+            <li>Emily & Matthew</li>
+            <li>Daniel & Calum</li>
+            <li>Alison & Keenan</li>
+            <li>Alice & Reid</li>
+          </ol>
+        </div>
+
+      </div>
+
+      <!-- Emily & Matthew Signing mechanics -->
+      <div class="mt-6 p-4 rounded-xl bg-stone-100/80 border border-stone-200 text-xs sm:text-sm">
+        <h3 class="font-semibold text-stone-900 mb-2">Registry Signing Mechanics (Emily & Matthew)</h3>
+        <ol class="space-y-1.5 text-stone-700 list-decimal list-inside">
+          <li>Following the kiss, Tara directs Corinne, Griffin, Emily, and Matthew to the signing table.</li>
+          <li>Emily brings Corinne’s bouquet and rests it on the table near the registry as a photo prop.</li>
+          <li>Corinne and Griffin sign where indicated by Tara.</li>
+          <li>Emily and Matthew sign next as the official legal witnesses.</li>
+          <li>Emily takes the bouquet, everyone returns to altar positions, and Emily returns the bouquet to Corinne right before the recessional cue.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 6. SPEECHES -->
+    <section id="speeches" class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-stone-200 text-sm">
+      <h2 class="text-2xl font-serif text-stone-900 border-b pb-3 mb-4">Speeches</h2>
+      <p class="text-stone-600 mb-4 text-xs sm:text-sm">
+        Speeches will be cued by the MC near the conclusion of the main course. 
+        <strong class="text-stone-900">Please keep all speeches brief and sweet (max 2 minutes each)!</strong>
+      </p>
+      
+      <ol class="space-y-2 text-stone-700 text-sm list-decimal list-inside">
+        <li class="p-2.5 bg-stone-50 rounded border border-stone-100 font-medium">Emily (Maid of Honour)</li>
+        <li class="p-2.5 bg-stone-50 rounded border border-stone-100 font-medium">Matthew (Best Man)</li>
+        <li class="p-2.5 bg-stone-50 rounded border border-stone-100 font-medium">Glen & Melissa</li>
+        <li class="p-2.5 bg-stone-50 rounded border border-stone-100 font-medium">Jeff & Jacqueline</li>
+        <li class="p-2.5 bg-amber-50 rounded border border-amber-200 font-medium text-amber-900">Griffin & Corinne (Thank You)</li>
+      </ol>
+    </section>
+
+    <!-- 7. NOTE FOR +1S -->
+    <section id="partners" class="bg-amber-50/60 p-6 sm:p-8 rounded-2xl border border-amber-200/70 text-sm">
+      <h2 class="text-2xl font-serif text-stone-900 border-b border-amber-200 pb-3 mb-4">A Note for Partners & Plus-Ones</h2>
+      <p class="text-stone-700 leading-relaxed text-xs sm:text-sm">
+        To keep morning hair, makeup, baby feeding, and dressing calm and spacious, <strong>morning prep at the house is reserved strictly for the wedding party and immediate parents</strong>.
+      </p>
+      <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-stone-700">
+        <div class="bg-white/80 p-3.5 rounded-lg border border-amber-100">
+          <strong class="block text-stone-900 mb-1">Option 1: Relax & Drive Direct</strong>
+          Enjoy a slow morning at home and head straight to The Springs in London for <strong>3:30 PM</strong> to be seated before the ceremony.
+        </div>
+        <div class="bg-white/80 p-3.5 rounded-lg border border-amber-100">
+          <strong class="block text-stone-900 mb-1">Option 2: London Hotel Check-in</strong>
+          If booking a hotel in London, travel up early, check in, grab lunch, and meet us at the venue at <strong>3:30 PM</strong>.
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center py-8 text-xs text-stone-400 border-t border-stone-200">
+    Friday, October 30 • Let’s celebrate!
+  </footer>
+
+</body>
+</html>
